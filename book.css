@@ -1,0 +1,45 @@
+@charset "UTF-8"
+;
+body{
+background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTy4B63kM_bWeUGXHVyQXmH-yJB4KEctjkvFg&usqp=CAU")no-repeat center center fixed;
+background-size: cover;
+};
+.book.row{
+	display:flex;
+	fles-wrap: wrap;
+	gap:1.5rem;
+}
+
+.book.row.image{
+	flex:1 1 40rem;
+}
+
+.book.row.image.img{
+	width:100%;
+}
+
+.book.row.form{
+	flex:1 1 40rem;
+	padding:2rem;
+	box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+	border-radius: .5rem;
+}
+
+.book.row.form.inputBox{
+	padding: .3rem 0;
+}
+
+.book.row.form.inputBox input{
+	width: 100%;
+	padding:1rem;
+	border: 1rem solid rgba(0,0,0,.1);
+	font-size: 1.7rem;
+	color: #333;
+	text-transform: blue;
+	
+}
+.book.row.form.inputBox h3{
+	font-size: 2rem;
+	padding:1rem 0;
+	color:pink;
+}
